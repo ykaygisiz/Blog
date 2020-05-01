@@ -1,0 +1,11 @@
+
+#   Standard security:
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\somepath\mydb.mdb;User Id=admin;Password=;"
+
+#  Workgroup (system database):
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\somepath\mydb.mdb;Jet OLEDB:System Database=system.mdw;"
+
+#  With password:
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\somepath\mydb.mdb;Jet OLEDB:Database Password=MyDbPassword;"
+
+MyConn.Open "Provider=Microsoft.ACE.OLEDB.12.0;Data Source= C:\SOFTWAREMEN\Suit\Shared Resources\GIGASOFT.MDB;ACE OLEDB:Database Password=XXXX"
